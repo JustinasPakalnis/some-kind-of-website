@@ -4,6 +4,20 @@
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+ 
+.flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
 .topLine {
     background-color: #60267F;
     text-align: center;
@@ -55,4 +69,70 @@
     background-color: #9A54BC;
     color: white;
     cursor: pointer;
+}
+.headerBtn:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+
+
+
+.section1 {
+    margin-top: 100px;
+}
+.headingContainer {
+    gap: 50px;
+    text-align: center;
+}
+.heading {
+    font-size: 3rem;
+    color: #2B0236;
+}
+
+.headingBtn {
+    padding: 20px 32px;
+    background-color: #9A54BC;
+    color: white;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.headingBtn:hover {
+    background-color: white;
+    color: #9A54BC;
+}
+.firstPhoneContainer {
+    /* margin-top: 250px; */
+    height: 500px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.smallElipse {
+    top: 65px;
+}
+.rectangle {
+    top: 80px;
+}
+.collabWord {
+    top: 175px;
+}
+.elipseBtn {
+    bottom: 110px;
+    width: 140px;
+    padding: 10px 15px;
+    color: #60267F;
+    border: 2px solid #9A54BC;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 700;
+}
+.elipseBtn:hover {
+    color: white;
+    background-color: #60267F;
+    border: 2px solid #60267F;
 }
