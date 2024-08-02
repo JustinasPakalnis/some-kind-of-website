@@ -10,7 +10,10 @@
     align-items: center;
  
 }
- 
+.headerTwo {
+    font-size: 3rem;
+    color: black;
+}
 .flexColumn {
     display: flex;
     justify-content: center;
@@ -69,10 +72,6 @@
     background-color: #9A54BC;
     color: white;
     cursor: pointer;
-}
-.headerBtn:hover {
-    background-color: #9A54BC;
-    color: white;
 }
 
 
@@ -135,4 +134,46 @@
     color: white;
     background-color: #60267F;
     border: 2px solid #60267F;
+}
+.topBrandsContainer {
+    margin-top: 100px;
+    gap: 50px
+}
+.iconsContainer {
+    gap: 100px;
+}
+.iconsContainer > img {
+    width: 100px;
+}
+.collabAppHelpContainer {
+    margin-top: 100px;
+    gap: 75px;
+}
+.mainContainer {
+    justify-content: space-between;
+}
+.leftparaContainer {
+    width: 40%;
+}
+.buttonContainer {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 2px;
+    display: flex;
+    gap: 5px;
+
+}
+.buttonContainer > button {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: white;
+    color: #60267F;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 15px 19px 17px -25px rgba(0,0,0,0.03); 
+    box-shadow: 0px 10px 13px -7px #000000, 15px 19px 17px -25px rgba(0,0,0,0.03);
+.buttonContainer > button:hover {
+
+    background-color: #60267F;
+    color: white;
 }
